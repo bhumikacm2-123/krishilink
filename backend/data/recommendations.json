@@ -1,0 +1,78 @@
+[
+  {
+    "success": true,
+    "is_demo_mode": false,
+    "model_name": "RandomForest Agronomic Classifier (Trained Scikit-Learn Model)",
+    "accuracy_benchmark": "93.44%",
+    "recommended_crop": {
+      "key": "ragi",
+      "name": "Ragi (Finger Millet)",
+      "kannada_name": "\u0cb0\u0cbe\u0c97\u0cbf (Finger Millet)",
+      "hindi_name": "\u092e\u0902\u0921\u0941\u0906 / \u0930\u093e\u0917\u0940 (Finger Millet)",
+      "scientific_name": "Eleusine coracana",
+      "category": "Nutri-Cereal / Millet",
+      "confidence": 78.0,
+      "suitable_soils": [
+        "Red Sandy Loam",
+        "Laterite",
+        "Light Black Soil",
+        "Loam"
+      ],
+      "soil_match_status": "Moderate",
+      "optimal_ph": "5.5 - 7.5",
+      "water_requirement": "Low to Moderate (350 - 550 mm, drought hardy)",
+      "growth_duration": "100 - 125 days",
+      "expected_yield": "12 - 18 quintals / acre (rainfed), 20 - 24 quintals (irrigated)",
+      "primary_states": [
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Odisha",
+        "Uttarakhand"
+      ],
+      "season": "Kharif (July - Nov), Rabi / Summer (under borewell irrigation)",
+      "npk_ratio": "50:40:25 kg/hectare for rainfed; 100:50:50 for irrigated",
+      "growing_tips": [
+        "Ideal staple superfood crop for Karnataka; highly climate-resilient with deep root penetration.",
+        "Seed treatment with Azospirillum and Phosphobacteria (200g/acre) boosts early root anchorage.",
+        "Practice intercropping with Red Gram (Pigeonpea) in a 4:2 or 8:2 row ratio for enhanced soil nitrogen and double income.",
+        "Tolerates moderate drought spells; one protective irrigation at flowering significantly boosts grain filling."
+      ],
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=600&q=80",
+      "reasoning": "Ragi (Finger Millet) is the optimal agronomic match for your field. Your nitrogen (60), phosphorus (45), and potassium (40) levels match its nutrient uptake profile. With a soil pH of 6.5 and expected rainfall/irrigation of 95 mm at 26.0\u00b0C, the crop will establish strong root architecture and optimal vegetative growth."
+    },
+    "alternatives": [
+      {
+        "crop_key": "pigeonpeas",
+        "crop_name": "Pigeonpea (Red Gram / Tur / Arhar)",
+        "kannada_name": "\u0ca4\u0cca\u0c97\u0cb0\u0cbf (Red Gram)",
+        "confidence": 19.2,
+        "category": "Pulse / Legume",
+        "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "crop_key": "maize",
+        "crop_name": "Maize (Corn)",
+        "kannada_name": "\u0cae\u0cc1\u0cb8\u0cc1\u0c95\u0cbf\u0ca8 \u0c9c\u0ccb\u0cb3 (Maize)",
+        "confidence": 15.0,
+        "category": "Cereal Grain / Feed",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "submitted_parameters": {
+      "N": 60.0,
+      "P": 45.0,
+      "K": 40.0,
+      "ph": 6.5,
+      "temperature": 26.0,
+      "humidity": 68.0,
+      "rainfall": 95.0,
+      "soil_type": "Black Soil (Regur)",
+      "location": "Karnataka"
+    },
+    "timestamp": "2026-10-26T08:57:35.204849+00:00",
+    "user_id": "2f5680bc-8d94-4ac1-85d1-fe19ee795240",
+    "_id": "27832df3-74e3-4477-89c8-1153b319c7c6",
+    "created_at": "2026-10-26T08:57:35.206919+00:00"
+  }
+]

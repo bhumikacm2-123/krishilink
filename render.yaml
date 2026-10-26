@@ -1,0 +1,16 @@
+services:
+  # 1. Backend Web Service (Flask + ML Models)
+  - type: web
+    name: krishilink-api
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "gunicorn --chdir backend app:app --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGO_URI
+        sync: false

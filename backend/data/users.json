@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Ramesh Gowda",
+    "email": "farmer@krishilink.in",
+    "phone": "+91 98450 12345",
+    "password_hash": "$2b$12$mXZ3RE3xEstzkckCFquyveyv4JarNLzs3/m7juZDALVmhZC5NTVUW",
+    "state": "Karnataka",
+    "district": "Mandya",
+    "village": "Maddur Taluk",
+    "farm_size": "4.5 Acres",
+    "soil_type": "Red Sandy Loam",
+    "primary_crops": [
+      "Ragi (Finger Millet)",
+      "Paddy (Rice)",
+      "Sugarcane"
+    ],
+    "irrigation_type": "Drip & Tube-well",
+    "created_at": "2026-10-26T06:59:47.706801+00:00",
+    "_id": "67bfbb4b-a8d1-4d1f-af11-941ca267fca1"
+  },
+  {
+    "name": "BHUMIKA C M",
+    "email": "bhumikacm2@gmail.com",
+    "phone": "8431909217",
+    "password_hash": "$2b$12$gKMH95k8GSmPn4e.6l6aZu7EBSRFTdX9JK0HrhPz5.DKybU76VBEC",
+    "state": "Karnataka",
+    "district": "Davanagere",
+    "village": "",
+    "farm_size": "4 Acres",
+    "soil_type": "Red Sandy Loam",
+    "primary_crops": [
+      "Ragi",
+      "Paddy"
+    ],
+    "irrigation_type": "Drip & Canal",
+    "created_at": "2026-10-26T08:56:57.762317+00:00",
+    "_id": "2f5680bc-8d94-4ac1-85d1-fe19ee795240"
+  }
+]
